@@ -15,6 +15,7 @@ public class MySpringMvcDispatcherServletInitializer extends AbstractAnnotationC
 
     @Override
     protected String[] getServletMappings() {
+
         return new String[] {"/"}; // <url-pattern>/</url-pattern> -> to dispatcher
     }
 }
